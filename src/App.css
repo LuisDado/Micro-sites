@@ -1,0 +1,281 @@
+body {
+  background-color: #0D0C11;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ---------------- NAVBAR ---------------- */
+
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+
+  padding: 20px;
+
+  background-color: #e35fa1;
+  border-radius: 20px;
+  border: 8px solid #9c2d65;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  width: 90px;
+  height: 40px;
+
+  padding: 10px;
+  border-radius: 10px;
+
+  background-color: #0D0C11;
+  color: #e35fa1;
+
+  text-decoration: none;
+
+  font-size: 10px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: .3s;
+}
+
+.navbar a:hover {
+  transform: translateY(-5px);
+  background-color: #1a1822;
+}
+/* ---------------- TÍTULO ---------------- */
+
+.inicio {
+  margin-top: 180px;
+  text-align: center;
+  color: #F7057C;
+}
+/* ---------------- CARDS ---------------- */
+
+.caixa {
+  width: 500px;
+
+  padding: 30px;
+  margin: 50px auto;
+
+  background-color: #F7057C;
+  color: #0D0C11;
+
+  border-radius: 30px;
+  text-align: center;
+}
+
+.caixa h1 {
+  font-size: 30px;
+}
+
+.caixa p {
+  font-size: 20px;
+}
+
+.caixa hr {
+  height: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0D0C11;
+}
+
+.caixa button {
+  display: block;
+  margin: 20px auto 0;
+
+  width: 200px;
+  height: 50px;
+
+  border: none;
+  border-radius: 20px;
+
+  background-color: #0D0C11;
+  color: #F7057C;
+
+  font-size: 20px;
+  cursor: pointer;
+
+  transition: .3s;
+}
+
+.caixa button:hover {
+  transform: translateY(-3px);
+}
+
+.caixaRecado {
+  width: 500px;
+
+  padding: 30px;
+  margin: 50px auto;
+
+  background-color: #F7057C;
+  color: #0D0C11;
+
+  border-radius: 30px;
+}
+
+.caixaRecado h1 {
+  font-size: 30px;
+}
+
+.caixaRecado p {
+  font-size: 20px;
+}
+
+.caixaRecado hr {
+  height: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0D0C11;
+}
+
+.caixaRecado button {
+  display: block;
+  margin: 20px auto 0;
+
+  width: 200px;
+  height: 50px;
+
+  border: none;
+  border-radius: 20px;
+
+  background-color: #0D0C11;
+  color: #F7057C;
+
+  font-size: 20px;
+  cursor: pointer;
+
+  transition: .3s;
+}
+
+.caixaRecado button:hover {
+  transform: translateY(-3px);
+}
+
+/* ---------------- CHAT ---------------- */
+
+.caixaChat1,
+.caixaChat2 {
+  width: 300px;
+
+  padding: 20px;
+  margin: 20px 0;
+
+  border-radius: 20px;
+
+  text-align: left;
+}
+
+.caixaChat1 {
+  background-color: #9c2d65;
+  color: white;
+
+  margin-left: auto;   /* Direita */
+}
+
+.caixaChat2 {
+  background-color: #e35fa1;
+  color: black;
+
+  margin-right: auto;  /* Esquerda */
+}
+
+.caixaChat1 h2,
+.caixaChat2 h2 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.caixaChat1 p,
+.caixaChat2 p {
+  margin: 0;
+  font-size: 17px;
+}
+
+
+/* ---------------- IMAGENS ---------------- */
+
+.ImgPerfil {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+
+  border: 8px solid #FEA802;
+  border-radius: 50%;
+}
+
+.ImgMusica {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+
+  border: 8px solid #2B2111;
+  border-radius: 30px;
+}
+
+.ImgFilme {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+
+  border: 8px solid #1d0000;
+  border-radius: 30px;
+}
+
+.ImgJogo {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+
+  border: 8px solid #1d0000;
+  border-radius: 30px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.footer{
+  width: 100%;
+  margin-top: 80px;
+  padding: 10px;
+
+  background-color: #9c2d65;
+  color: #0D0C11;
+
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer strong{
+  color: #e35fa1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    scroll-margin-top: 140px; /* evita que a navbar esconda o título */
+}
